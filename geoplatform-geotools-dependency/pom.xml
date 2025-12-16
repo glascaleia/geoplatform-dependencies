@@ -180,7 +180,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <gt-version>34.0</gt-version>
+        <gt-version>34.1</gt-version>
         <gt-coveragetools.version>15.4</gt-coveragetools.version>
         <gt-gml.version>2.5.5</gt-gml.version>
     </properties>
