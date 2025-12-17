@@ -22,7 +22,7 @@ dependencyManagement {
         dependency 'org.slf4j:slf4j-nop:' + sl4jVersion
         dependency 'org.slf4j:slf4j-simple:' + sl4jVersion
         dependency 'org.slf4j:slf4j-log4j12:' + sl4jVersion
-        dependency 'ch.qos.logback:logback-classic:1.5.20'
+        dependency 'ch.qos.logback:logback-classic:1.5.22'
         dependency 'org.apache.logging.log4j:log4j-slf4j-impl:2.25.1'
     }
 }
