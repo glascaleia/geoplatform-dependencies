@@ -27,10 +27,10 @@ repositories {
 ext {
     springVersion = "7.0.2";
     springSupportVersion = "2.0.8";
-    springSecurityVersion = "7.0.0";
-    springBatchVersion = "6.0.0";
+    springSecurityVersion = "7.0.2";
+    springBatchVersion = "6.0.1";
     springOpenApiVersion = "3.0.0";
-    springBootVersion = "4.0.0";
+    springBootVersion = "4.0.1";
 }
 
 dependencyManagement {
