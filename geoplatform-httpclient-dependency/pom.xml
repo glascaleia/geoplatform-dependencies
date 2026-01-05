@@ -57,8 +57,8 @@
     </dependencyManagement>
     
     <properties>
-        <httpcomponents-core5-version>5.3.6</httpcomponents-core5-version>
-        <httpcomponents-client5-version>5.5.1</httpcomponents-client5-version>
+        <httpcomponents-core5-version>5.4</httpcomponents-core5-version>
+        <httpcomponents-client5-version>5.6</httpcomponents-client5-version>
         <httpcomponents-core-version>4.4.16</httpcomponents-core-version>
         <httpcomponents-client-version>4.5.14</httpcomponents-client-version>
         <httpcomponents-mime-version>4.5.14</httpcomponents-mime-version>
