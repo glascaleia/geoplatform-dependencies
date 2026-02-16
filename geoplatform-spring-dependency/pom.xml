@@ -219,9 +219,9 @@
     </dependencyManagement>
 
     <properties>
-        <spring-version>7.0.3</spring-version>
+        <spring-version>7.0.4</spring-version>
         <spring-support>2.0.8</spring-support>
-        <spring-security-version>7.0.2</spring-security-version>
+        <spring-security-version>7.0.3</spring-security-version>
         <spring-batch.version>6.0.2</spring-batch.version>
         <springdoc-openapi.version>3.0.1</springdoc-openapi.version>
         <spring-boot.version>4.0.2</spring-boot.version>
