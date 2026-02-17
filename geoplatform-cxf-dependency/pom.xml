@@ -227,11 +227,11 @@
     </dependencyManagement>
     
     <properties>
-        <cxf-version>4.1.4</cxf-version>
+        <cxf-version>4.2.0</cxf-version>
         <xmlsec-version>4.0.4</xmlsec-version>
         <wss4j-version>4.0.1</wss4j-version>
         <fastinfoset-version>2.1.1</fastinfoset-version>
-        <cxf-rt-rs-service-description-swagger.version>3.6.9</cxf-rt-rs-service-description-swagger.version>
+        <cxf-rt-rs-service-description-swagger.version>3.6.10</cxf-rt-rs-service-description-swagger.version>
     </properties>
 
 </project>
