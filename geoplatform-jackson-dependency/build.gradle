@@ -10,7 +10,7 @@ plugins {
 }
 
 ext {
-    jacksonVersion = "3.0.4";
+    jacksonVersion = "3.1.0";
     jacksonAnnotationsVersion = "2.21";
     woodstoxCoreVersion = "7.1.1";
     aaltoXmlVersion = "1.3.4";
