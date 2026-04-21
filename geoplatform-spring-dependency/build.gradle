@@ -27,7 +27,7 @@ repositories {
 ext {
     springVersion = "7.0.7";
     springSupportVersion = "2.0.8";
-    springSecurityVersion = "7.0.4";
+    springSecurityVersion = "7.0.5";
     springBatchVersion = "6.0.3";
     springOpenApiVersion = "3.0.1";
     springBootVersion = "4.0.5";
