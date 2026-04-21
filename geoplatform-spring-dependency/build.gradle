@@ -29,7 +29,7 @@ ext {
     springSupportVersion = "2.0.8";
     springSecurityVersion = "7.0.5";
     springBatchVersion = "6.0.3";
-    springOpenApiVersion = "3.0.1";
+    springOpenApiVersion = "3.0.3";
     springBootVersion = "4.0.5";
 }
 
