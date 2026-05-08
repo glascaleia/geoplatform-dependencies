@@ -54,6 +54,12 @@
             </dependency>
 
             <dependency>
+                <groupId>tools.jackson.module</groupId>
+                <artifactId>jackson-module-blackbird</artifactId>
+                <version>${jackson-version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>tools.jackson.datatype</groupId>
                 <artifactId>jackson-datatype-joda</artifactId>
                 <version>${jackson-version}</version>

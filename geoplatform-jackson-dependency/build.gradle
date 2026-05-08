@@ -25,6 +25,7 @@ dependencyManagement {
         dependency 'tools.jackson.core:jackson-databind:' + jacksonVersion
         dependency 'tools.jackson.module:jackson-module-mrbean:' + jacksonVersion
         dependency 'tools.jackson.module:jackson-module-afterburner:' + jacksonVersion
+        dependency 'tools.jackson.module:jackson-module-afterburner:' + jacksonVersion
         dependency 'tools.jackson.datatype:jackson-datatype-joda:' + jacksonVersion
         dependency 'tools.jackson.datatype:jackson-datatype-guava:' + jacksonVersion
         dependency 'tools.jackson.dataformat:jackson-dataformat-yaml:' + jacksonVersion
