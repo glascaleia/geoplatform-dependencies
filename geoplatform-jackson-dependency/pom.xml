@@ -157,12 +157,12 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jackson-version>3.1.4</jackson-version>
-        <jackson-annotations-version>2.21</jackson-annotations-version>
-        <woodstox-core.version>7.2.0</woodstox-core.version>
+        <jackson-version>3.2.0</jackson-version>
+        <jackson-annotations-version>2.22</jackson-annotations-version>
+        <woodstox-core.version>7.2.1</woodstox-core.version>
         <aalto-xml.version>1.4.0</aalto-xml.version>
         <java-uuid-generator.version>5.2.0</java-uuid-generator.version>
-        <jtoon.version>1.0.9</jtoon.version>
+        <jtoon.version>2.0.0</jtoon.version>
     </properties>
 
 </project>
