@@ -221,10 +221,10 @@
     <properties>
         <spring-version>7.0.8</spring-version>
         <spring-support>2.0.8</spring-support>
-        <spring-security-version>7.0.5</spring-security-version>
-        <spring-batch.version>6.0.3</spring-batch.version>
+        <spring-security-version>7.1.0</spring-security-version>
+        <spring-batch.version>6.0.4</spring-batch.version>
         <springdoc-openapi.version>3.0.3</springdoc-openapi.version>
-        <spring-boot.version>4.0.6</spring-boot.version>
+        <spring-boot.version>4.1.0</spring-boot.version>
     </properties>
 
 </project>
