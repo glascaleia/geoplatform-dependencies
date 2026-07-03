@@ -37,7 +37,7 @@
     </dependencyManagement>
 
     <properties>
-        <hibernate-validator-version>9.1.0.Final</hibernate-validator-version>
+        <hibernate-validator-version>9.1.1.Final</hibernate-validator-version>
     </properties>
 
 </project>
