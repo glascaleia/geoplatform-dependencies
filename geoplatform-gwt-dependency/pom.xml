@@ -64,12 +64,6 @@
                 <version>${restygwt.version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>com.github.nmorel.gwtjackson</groupId>
-                <artifactId>gwt-jackson</artifactId>
-                <version>${gwt-jackson.version}</version>
-            </dependency>
-
             <!-- DOMINO REST (client REST da interfacce jakarta.ws.rs) e DOMINO JACKSON (JSON) -->
             <dependency>
                 <groupId>org.dominokit</groupId>
@@ -116,7 +110,6 @@
         <gwt.version>2.13.1</gwt.version>
         <gxt.version>2.3.2a-gwt211</gxt.version>
         <restygwt.version>2.2.7</restygwt.version>
-        <gwt-jackson.version>0.15.4</gwt-jackson.version>
         <domino-rest.version>2.0.2</domino-rest.version>
         <domino-jackson.version>1.0.6</domino-jackson.version>
         <elemental2.version>1.3.2</elemental2.version>
