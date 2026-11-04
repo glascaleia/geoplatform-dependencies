@@ -70,6 +70,45 @@
                 <version>${gwt-jackson.version}</version>
             </dependency>
 
+            <!-- DOMINO REST (client REST da interfacce jakarta.ws.rs) e DOMINO JACKSON (JSON) -->
+            <dependency>
+                <groupId>org.dominokit</groupId>
+                <artifactId>domino-rest-client</artifactId>
+                <version>${domino-rest.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.dominokit</groupId>
+                <artifactId>domino-rest-processor</artifactId>
+                <version>${domino-rest.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.dominokit</groupId>
+                <artifactId>domino-jackson</artifactId>
+                <version>${domino-jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.dominokit</groupId>
+                <artifactId>domino-jackson-processor</artifactId>
+                <version>${domino-jackson.version}</version>
+            </dependency>
+
+            <!-- ELEMENTAL2: una sola versione, altrimenti Maven mescola 1.1.0 e 1.3.2 -->
+            <dependency>
+                <groupId>com.google.elemental2</groupId>
+                <artifactId>elemental2-core</artifactId>
+                <version>${elemental2.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.elemental2</groupId>
+                <artifactId>elemental2-dom</artifactId>
+                <version>${elemental2.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.elemental2</groupId>
+                <artifactId>elemental2-promise</artifactId>
+                <version>${elemental2.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
@@ -78,6 +117,9 @@
         <gxt.version>2.3.2a-gwt211</gxt.version>
         <restygwt.version>2.2.7</restygwt.version>
         <gwt-jackson.version>0.15.4</gwt-jackson.version>
+        <domino-rest.version>2.0.2</domino-rest.version>
+        <domino-jackson.version>1.0.6</domino-jackson.version>
+        <elemental2.version>1.3.2</elemental2.version>
     </properties>
 
 </project>

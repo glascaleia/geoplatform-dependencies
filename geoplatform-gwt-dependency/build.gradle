@@ -14,6 +14,9 @@ ext {
     gxtVersion = "2.3.2a-gwt211";
     restyGwtVersion = "2.2.7";
     gwtJacksonVersion = "0.15.4";
+    dominoRestVersion = "2.0.2";
+    dominoJacksonVersion = "1.0.6";
+    elemental2Version = "1.3.2";
 }
 
 dependencyManagement {
@@ -25,5 +28,12 @@ dependencyManagement {
         dependency 'org.gwtproject.web.bindery:requestfactory-server:' + gwtVersion
         dependency 'org.fusesource.restygwt:restygwt:' + restyGwtVersion
         dependency 'com.github.nmorel.gwtjackson:gwt-jackson:' + gwtJacksonVersion
+        dependency 'org.dominokit:domino-rest-client:' + dominoRestVersion
+        dependency 'org.dominokit:domino-rest-processor:' + dominoRestVersion
+        dependency 'org.dominokit:domino-jackson:' + dominoJacksonVersion
+        dependency 'org.dominokit:domino-jackson-processor:' + dominoJacksonVersion
+        dependency 'com.google.elemental2:elemental2-core:' + elemental2Version
+        dependency 'com.google.elemental2:elemental2-dom:' + elemental2Version
+        dependency 'com.google.elemental2:elemental2-promise:' + elemental2Version
     }
 }
