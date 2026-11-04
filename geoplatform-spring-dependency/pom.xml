@@ -210,6 +210,14 @@
                 <version>${spring-boot.version}</version>
                 <scope>test</scope>
             </dependency>
+
+            <!-- FreeMarker for the Spring mail templates: managed here, otherwise Maven picks the older version
+            brought by hibernate-reveng -->
+            <dependency>
+                <groupId>org.freemarker</groupId>
+                <artifactId>freemarker</artifactId>
+                <version>${freemarker.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -219,6 +227,7 @@
         <spring-batch.version>6.0.6</spring-batch.version>
         <springdoc-openapi.version>3.2.0</springdoc-openapi.version>
         <spring-boot.version>4.1.2</spring-boot.version>
+        <freemarker.version>2.3.35</freemarker.version>
     </properties>
 
 </project>

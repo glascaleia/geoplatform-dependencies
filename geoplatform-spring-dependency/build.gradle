@@ -30,6 +30,7 @@ ext {
     springBatchVersion = "6.0.6";
     springOpenApiVersion = "3.2.0";
     springBootVersion = "4.1.2";
+    freemarkerVersion = "2.3.35";
 }
 
 dependencyManagement {
@@ -64,6 +65,7 @@ dependencyManagement {
         dependency 'org.springframework.boot:spring-boot-starter-cache:' + springBootVersion
         dependency 'org.springframework.boot:spring-boot-starter-data-redis:' + springBootVersion
         dependency 'org.springframework.boot:spring-boot-starter-test:' + springBootVersion
+        dependency 'org.freemarker:freemarker:' + freemarkerVersion
     }
 }
 
